@@ -34,3 +34,35 @@ Calculates and returns the standard deviation of an integer array. It is the squ
 
 ## UserInput.java
 
+`takeSimpleInputs():`
+Description: This method is used to take simple numeric inputs from the user. It prompts the user to enter two numbers (doubles) and stores them in an array.
+Return Type: double[] - An array containing the two input numbers.
+Functionality:
+Prompts the user to enter the first number.
+Reads and stores the first number in the array.
+Prompts the user to enter the second number.
+Reads and stores the second number in the array.
+Prints the entered numbers.
+Returns the array containing the entered numbers.
+
+`takeArrayInputs():`
+Description: This method is used to take inputs for an integer array from the user. It prompts the user to enter the size of the array and then the elements of the array.
+Return Type: int[] - An array containing the entered integer elements.
+Functionality:
+Prompts the user to enter the size of the array.
+Reads and stores the size.
+Creates an integer array of the specified size.
+Prompts the user to enter each element of the array.
+Reads and stores each element in the array.
+Returns the array containing the entered elements.
+
+These methods encapsulate the logic for taking user inputs in a console application. They are designed to be reusable, allowing the user to input either a pair of numbers or an array of integers, depending on the application's needs. The methods use the Scanner class to read input from the console.
+
+
+
+
+
+
+
+
+
