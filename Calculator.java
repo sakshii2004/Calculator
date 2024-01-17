@@ -101,5 +101,4 @@ public class Calculator {
 		
 		return standardDeviation;
  	}
-
 }
